@@ -1,4 +1,9 @@
+# MCU name
+MCU = atmega32u4
 CONVERT_TO=rp2040_ce
+
+# Bootloader selection
+BOOTLOADER = caterina
 
 # Build Options
 #   change yes to no to disable
@@ -17,3 +22,5 @@ ENCODER_ENABLE = yes
 OLED_ENABLE = yes
 OLED_DRIVER = SSD1306
 WPM_ENABLE = yes
+
+

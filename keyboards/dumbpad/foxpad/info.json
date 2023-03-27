@@ -1,4 +1,5 @@
 {
+    "keyboard_name": "foxpad",
     "usb": {
         "device_version": "0.0.1"
     },
@@ -8,8 +9,8 @@
             {"pin_a": "E6", "pin_b": "D7"}
         ]
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
     "layouts": {
         "LAYOUT": {
             "layout": [
